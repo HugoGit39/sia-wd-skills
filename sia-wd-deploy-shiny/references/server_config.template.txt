@@ -1,0 +1,29 @@
+# SiA-WD deploy config. Copy to  ~/.sia_wd_deploy.conf  (outside every repo)
+# and fill in. One key=value per line. NO passwords or key contents in here.
+
+# Server name or IP, as you use it with ssh. Only reachable on the VU network or VPN.
+host=
+
+# Your login name on that server.
+user=
+
+# Absolute folder on the server that holds the PRODUCTION app: it must contain
+# app.R, global.R, data/ and www/. Letters, digits and _ . / ~ - only.
+# Do not know it? Ask the server admin, see references/ssh_setup.md.
+remote_app_dir=
+
+# Optional. Default 22.
+port=
+
+# Optional. Path to your private key file, for example ~/.ssh/id_ed25519
+key=
+
+# Runs on the server after a successful upload, in this order: Shiny Server
+# restart first, then the nginx reload. Both are expected. The skill cannot type
+# a sudo password, so sudo must work without one for these two commands (use
+# sudo -n so it fails instead of hanging). Typical commands, to confirm with the
+# server admin:
+#   restart_shiny_command=sudo -n systemctl restart shiny-server
+#   reload_nginx_command=sudo -n nginx -t && sudo -n systemctl reload nginx
+restart_shiny_command=
+reload_nginx_command=
