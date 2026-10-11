@@ -1,3 +1,13 @@
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Version](https://img.shields.io/badge/version-0.3.0-blue.svg)](../../releases)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="www/ClaudeCodexSiA_dark.png">
+    <img src="www/ClaudeCodexSiA.png" alt="Claude Code x Stress in Action" width="400">
+  </picture>
+</p>
+
 # SiA-WD skills
 
 Two [Claude Code](https://claude.com/claude-code) skills for maintaining the Stress in Action Wearables Database (SiA-WD).
