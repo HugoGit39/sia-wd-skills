@@ -21,7 +21,7 @@ Run the SiA-WD relational data pipeline (repo `sia.project.1.wd.data`) end to en
 
 ### 1. Locate the repo, get the latest version, then the mother tables
 
-Use the current folder if it holds `data/raw/` and `src/application/`. Otherwise look for a folder named `sia.project.1.wd.data` (or the older `sia.project.1.wi.data`) nearby. If none exists, ask once for the path, or offer `git clone https://github.com/stress-in-action/sia.project.1.wd.data` (read-only download, no credentials). Call this folder ROOT.
+Use the current folder if it holds `data/raw/` and `src/application/`. Otherwise look for a folder named `sia.project.1.wd.data` nearby. If none exists, ask once for the path, or offer `git clone https://github.com/stress-in-action/sia.project.1.wd.data` (read-only download, no credentials). Call this folder ROOT.
 
 Find R: `Rscript` on the PATH, otherwise the newest `C:/Program Files/R/R-*/bin/Rscript.exe` (Windows) or `/usr/local/bin/Rscript` (macOS). Use it for every `Rscript` call below. None found: stop, R must be installed.
 

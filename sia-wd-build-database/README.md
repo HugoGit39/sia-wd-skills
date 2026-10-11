@@ -2,7 +2,7 @@
 
 A [Claude Code](https://claude.com/claude-code) skill that builds the Stress in Action Wearables Database (SiA-WD) from the researchers' source "mother tables". Start the skill, answer at most a few short questions, and it checks the inputs, runs the pipeline, verifies the result and reports what was produced and where.
 
-The skill drives the public data pipeline [`sia.project.1.wd.data`](https://github.com/stress-in-action/sia.project.1.wd.data). It does not replace or modify that pipeline.
+The skill drives the public data pipeline [`sia.project.1.wd.data`](../../../../sia.project.1.wd.data). It does not replace or modify that pipeline.
 
 ## What it produces
 
@@ -53,7 +53,7 @@ Then, in a clone of the data pipeline repo, ask Claude Code to "build the SiA da
 
 - Claude Code.
 - R (a recent 4.x release), plus the packages the pipeline loads, and `testthat` for the tests. The skill prints the exact `install.packages(...)` line if something is missing.
-- A clone of [`sia.project.1.wd.data`](https://github.com/stress-in-action/sia.project.1.wd.data) with the 7 mother tables in `data/raw/`.
+- A clone of [`sia.project.1.wd.data`](../../../../sia.project.1.wd.data) with the 7 mother tables in `data/raw/`.
 
 ## Contents
 

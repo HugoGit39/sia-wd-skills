@@ -12,7 +12,7 @@ Read `data/processed/verification/`: the roundtrip summary must show zero mismat
 
 ## What the Shiny app reads
 
-From `stress-in-action/sia.project.1.wd.shiny`, `production/app/global.R` (and `test/app/global.R`) read these files WITHOUT the date suffix:
+In the app repo `sia.project.1.wd.shiny`, `production/app/global.R` (and `test/app/global.R`) read these files WITHOUT the date suffix:
 
 | App reads | Pipeline produced |
 |---|---|

@@ -20,8 +20,8 @@ Then ask Claude Code to "build the SiA database", and afterwards to "deploy the 
 
 ## Repos they work on
 
-- Data pipeline: [`sia.project.1.wd.data`](https://github.com/stress-in-action/sia.project.1.wd.data)
-- Shiny app: [`sia.project.1.wd.shiny`](https://github.com/stress-in-action/sia.project.1.wd.shiny)
-- Golem package: [`siawd`](https://github.com/stress-in-action/siawd)
+- Data pipeline: [`sia.project.1.wd.data`](../../../sia.project.1.wd.data)
+- Shiny app: [`sia.project.1.wd.shiny`](../../../sia.project.1.wd.shiny)
+- Golem package: [`siawd`](../../../siawd)
 
 The live app is at https://wearables.stress-in-action.nl.
