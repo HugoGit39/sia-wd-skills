@@ -24,4 +24,4 @@ Then ask Claude Code to "build the SiA database", and afterwards to "deploy the 
 - Shiny app: [`sia.project.1.wd.shiny`](https://github.com/stress-in-action/sia.project.1.wd.shiny)
 - Golem package: [`siawd`](https://github.com/stress-in-action/siawd)
 
-The live app is at https://wearables.stress-in-action.nl. When you share anything derived from the SiA-WD filters, cite Schoenmakers et al., *Behavior Research Methods* (2025).
+The live app is at https://wearables.stress-in-action.nl.

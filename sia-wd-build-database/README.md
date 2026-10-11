@@ -68,10 +68,6 @@ Then, in a clone of the data pipeline repo, ask Claude Code to "build the SiA da
 
 Version 0.2. The helper tests pass, and a full run and a two-device subset run were tested on a copy of the pipeline repo. Known open points for the pipeline owners are listed in `SKILL.md`, section "Subset mode". One example: the commented `DEVICE_FILTER` block in script `02` does not cover the detailed reliability, validity and usability table.
 
-## Citation
-
-When you share anything derived from the SiA-WD filters, cite Schoenmakers et al., *Behavior Research Methods* (2025).
-
 ## Copyright and licence
 
 Copyright of the Stress in Action materials sits with Stress in Action. The licence of this repository is not yet decided and no licence file is included.
