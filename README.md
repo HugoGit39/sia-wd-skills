@@ -12,7 +12,7 @@ Run them in that order: build first, then deploy.
 ## Install
 
 ```
-git clone https://github.com/HugoGit39/sia-wd-skills
+git clone https://github.com/stress-in-action/sia-wd-skills
 cp -r sia-wd-skills/sia-wd-build-database sia-wd-skills/sia-wd-deploy-shiny ~/.claude/skills/
 ```
 
